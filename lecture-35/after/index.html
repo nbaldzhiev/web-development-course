@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>David Chu's China Bistro</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>David Chu's China Bistro</h1></a>
+						<p>
+							<img src="../images/star-k-logo.png" alt="Kosher Certification">
+							<span>Kosher Certified</span>
+						</p>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span>
+								<br class="hidden-xs"> Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span>
+								<br class="hidden-xs"> About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span>
+								<br class="hidden-xs"> Awards
+							</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span>410-602-5008</span>
+							</a>
+							<div>* We Deliver</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:410-602-5008">
+			<span class="glyphicon glyphicon-earphone"></span>
+			410-602-5008			
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="visible-xs img-responsive">
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/AY5b1vxdmFwBCRpMA" target="_blank"><div id="map-tile">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752455000174!2d-76.7116881!3d39.3635903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2sbg!4v1608913483942!5m2!1sen!2sbg" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<span>Map</span>
+				</div></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
